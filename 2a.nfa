@@ -1,6 +1,6 @@
 alphabet: {a,b}
 start: Q12
-accepting: {Q0,Q3,Q5,Q6,Q9,Q10,Q18}
+accepting: {Q0,Q3,Q5,Q6,Q8,Q10,Q18}
 
 Q12 (_->Q0)(_->Q13)
 
