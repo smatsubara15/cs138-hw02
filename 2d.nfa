@@ -1,21 +1,17 @@
 alphabet: {a,b}
 start: Q0
-accepting: {Q10,Q11,Q12}
+accepting: {Q1,Q2,Q4,Q5,Q10,Q11,Q12}
 
 Q0 (a->Q1)(b->Q2)
-Q1 (a->Q13)(b->Q3)
-Q2 (a->Q3)(b->Q13)
+Q1 (a->Q12)(b->Q3)
+Q2 (a->Q3)(b->Q12)
 Q3 (a->Q4)(b->Q5)
-Q4 (a->Q15)(b->Q6)
-Q5 (a->Q6)(b->Q15)
+Q4 (a->Q12)(b->Q6)
+Q5 (a->Q6)(b->Q12)
 Q6 (a->Q7)(b->Q8)
-Q7 (a->12)(b->Q9)
+Q7 (a->Q12)(b->Q9)
 Q8 (a->Q9)(b->Q12)
 Q9 (a->Q10)(b->Q11)
 Q10 (a->Q12)(b->Q9)
 Q11 (a->Q9)(b->Q12)
 Q12 (a->Q12)(b->Q12)
-Q13 (a->Q14)(b->Q14)
-Q14 (a->Q15)(b->Q15)
-Q15 (a->Q16)(b->Q16)
-Q16 (a->Q12)(b->Q12)
